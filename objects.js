@@ -5,5 +5,13 @@ var me = {
 	'age': 29,
 	'hair color': 'brown'
 };
+me['name'] = 'Catherine Buergel'
+me.age = 26
+me['hair color'] = 'blonde/brown'
+
 
 //2. Iterate over the object to console.log the propery or key names. 
+
+for (const key in me) {
+	console.log(me[key])
+}
